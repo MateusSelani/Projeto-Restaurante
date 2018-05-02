@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Cozinha - Restaurante Brasileiro</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mateus Selani"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style type="text/css">@import url(IndexCss.css);</style>
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <div class="container" id="LarguraTotal">
+        <div class="jumbotron">
+          <h1>Cozinha</h1>
+          <h2>Restaurante Brasileiro</h2>
+        </div>
+    </div>
+    <!-- Fim CABEÇALHO -->
+      <!-- Processo dos Pratos -->
+      <div class="container" id="LarguraTotal">
+            <h2>Mesa X</h2><br/>
+            <table class="table table-hover">
+              <!-- Inicio Table -->
+              <thead style="background-color:lavender;">
+                <tr>
+                  <th>Pratos</th>
+                  <th>Prazo</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Tradicional</td>
+                  <td>30min</td>
+                  <td>
+                    <!-- BOTÃO SELEÇÃO -->
+                    <form action="">
+                      <select name="status">
+                        <option value="processando">Em Andamento</option>
+                        <option value="pronto">Pronto</option>
+                        <option value="cancelar">Cancelar</option>
+                    </select>
+                    <!--Fim BOTÃO SELEÇÃO -->
+                  </td>
+                </tr>
+                <tr>
+                  <td>Tradicional</td>
+                  <td>30min</td>
+                  <td>
+                    <!-- BOTÃO SELEÇÃO -->
+                    <form action="">
+                      <select name="status">
+                        <option value="processando">Em Andamento</option>
+                        <option value="pronto">Pronto</option>
+                        <option value="cancelar">Cancelar</option>
+                    </select>
+                    <!-- Fim BOTÃO SELEÇÃO -->
+                  </td>
+                </tr>
+                <tr>
+                  <td>Kids</td>
+                  <td>15min</td>
+                  <td>
+                    <!-- BOTÃO SELEÇÃO -->
+                    <form action="">
+                      <select name="status">
+                        <option value="processando">Em Andamento</option>
+                        <option value="pronto">Pronto</option>
+                        <option value="cancelar">Cancelar</option>
+                    </select>
+                    <!-- Fim BOTÃO SELEÇÃO -->
+                  </td>
+                </tr>
+                <tr>
+                  <td>Dica do Chefe</td>
+                  <td>30min</td>
+                  <td>
+                    <!-- BOTÃO SELEÇÃO -->
+                    <form action="">
+                      <select name="status">
+                        <option value="processando">Em Andamento</option>
+                        <option value="pronto">Pronto</option>
+                        <option value="cancelar">Cancelar</option>
+                      </select>
+                    <!-- Fim BOTÃO SELEÇÃO -->
+                    </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+      <!-- Fim Table -->
+      <br/>
+      <!-- BOTÃO -->
+      <button type="button" class="btn btn-primary btn-block" 
+        id="LarguraTotal">Enviar</button>
+      <!-- Fim BOTÃO -->
+      <br/>
+</body>
+</html>

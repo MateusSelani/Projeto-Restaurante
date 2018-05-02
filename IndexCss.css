@@ -1,0 +1,18 @@
+body {
+    /*Margens do documento*/
+    margin: 10px 350px 10px 350px;
+}
+h1, h2, h3, p, .TextoCentral {
+    /*Centralizar textos*/
+    text-align: center;
+}
+table, tbody, tr, td, th, button {
+    /*Configuração Botoẽs e Tabelas
+    Paginas 4,5,6 e 7*/
+    width: 100px;
+    text-align: center;
+}
+#LarguraTotal {
+    /*Largura de 100% para elementos*/
+    width: 100%;
+}
