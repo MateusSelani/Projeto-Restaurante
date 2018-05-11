@@ -16,85 +16,101 @@
 </head>
 <body>
     <!-- CABEÇALHO -->
-    <div class="container" id="LarguraTotal">
         <div class="jumbotron">
           <h1>Cozinha</h1>
           <h2>Restaurante Brasileiro</h2>
         </div>
-    </div>
     <!-- Fim CABEÇALHO -->
       <!-- Processo dos Pratos -->
-      <div class="container" id="LarguraTotal">
-            <h2>Mesa X</h2><br/>
-            <table class="table table-hover">
-              <!-- Inicio Table -->
-              <thead style="background-color:lavender;">
-                <tr>
-                  <th>Pratos</th>
-                  <th>Prazo</th>
-                  <th>Status</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Tradicional</td>
-                  <td>30min</td>
-                  <td>
-                    <!-- BOTÃO SELEÇÃO -->
-                    <form action="">
-                      <select name="status">
-                        <option value="processando">Em Andamento</option>
-                        <option value="pronto">Pronto</option>
-                        <option value="cancelar">Cancelar</option>
-                    </select>
-                    <!--Fim BOTÃO SELEÇÃO -->
-                  </td>
-                </tr>
-                <tr>
-                  <td>Tradicional</td>
-                  <td>30min</td>
-                  <td>
-                    <!-- BOTÃO SELEÇÃO -->
-                    <form action="">
-                      <select name="status">
-                        <option value="processando">Em Andamento</option>
-                        <option value="pronto">Pronto</option>
-                        <option value="cancelar">Cancelar</option>
-                    </select>
-                    <!-- Fim BOTÃO SELEÇÃO -->
-                  </td>
-                </tr>
-                <tr>
-                  <td>Kids</td>
-                  <td>15min</td>
-                  <td>
-                    <!-- BOTÃO SELEÇÃO -->
-                    <form action="">
-                      <select name="status">
-                        <option value="processando">Em Andamento</option>
-                        <option value="pronto">Pronto</option>
-                        <option value="cancelar">Cancelar</option>
-                    </select>
-                    <!-- Fim BOTÃO SELEÇÃO -->
-                  </td>
-                </tr>
-                <tr>
-                  <td>Dica do Chefe</td>
-                  <td>30min</td>
-                  <td>
-                    <!-- BOTÃO SELEÇÃO -->
-                    <form action="">
-                      <select name="status">
-                        <option value="processando">Em Andamento</option>
-                        <option value="pronto">Pronto</option>
-                        <option value="cancelar">Cancelar</option>
-                      </select>
-                    <!-- Fim BOTÃO SELEÇÃO -->
-                    </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+      <h2>Mesa X</h2><br/>
+      <table class="table table-hover">
+        <!-- Inicio Table -->
+        <thead style="background-color:lavender;">
+          <tr>
+            <th>Pratos</th>
+            <th>Prazo</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tradicional</td>
+            <td>30min</td>
+            <td>
+              <!-- BOTÃO SELEÇÃO -->
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" 
+                data-toggle="dropdown" style="width: 140px">Status
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="">Em Andamento</a></li>
+                  <li><a href="">Pronto</a></li>
+                  <li class="divider"></li>
+                  <li><a href="">Cancelar</a></li>
+                </ul>
+              </div>
+              <!--Fim BOTÃO SELEÇÃO -->
+            </td>
+          </tr>
+          <tr>
+            <td>Tradicional</td>
+            <td>30min</td>
+            <td>
+              <!-- BOTÃO SELEÇÃO -->
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" 
+                data-toggle="dropdown" style="width: 140px">Status
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="">Em Andamento</a></li>
+                  <li><a href="">Pronto</a></li>
+                  <li class="divider"></li>
+                  <li><a href="">Cancelar</a></li>
+                </ul>
+              </div>
+              <!-- Fim BOTÃO SELEÇÃO -->
+            </td>
+          </tr>
+          <tr>
+            <td>Kids</td>
+            <td>15min</td>
+            <td>
+              <!-- BOTÃO SELEÇÃO -->
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" 
+                data-toggle="dropdown" style="width: 140px">Status
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="">Em Andamento</a></li>
+                  <li><a href="">Pronto</a></li>
+                  <li class="divider"></li>
+                  <li><a href="">Cancelar</a></li>
+                </ul>
+              </div>
+              <!-- Fim BOTÃO SELEÇÃO -->
+            </td>
+          </tr>
+          <tr>
+            <td>Dica do Chefe</td>
+            <td>30min</td>
+            <td>
+              <!-- BOTÃO SELEÇÃO -->
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" 
+                data-toggle="dropdown" style="width: 140px">Status
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="">Em Andamento</a></li>
+                  <li><a href="">Pronto</a></li>
+                  <li class="divider"></li>
+                  <li><a href="">Cancelar</a></li>
+                </ul>
+              </div>
+              <!-- Fim BOTÃO SELEÇÃO -->
+              </td>
+          </tr>
+        </tbody>
+      </table>
       <!-- Fim Table -->
       <br/>
       <!-- BOTÃO -->
